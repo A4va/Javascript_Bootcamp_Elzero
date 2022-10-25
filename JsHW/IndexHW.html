@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <style>
+      body{
+        background-color: slategrey;
+      }
+    </style>
+    <title>Learn JavaScript</title>
+    <!-- HW94-101 -->
+    <!-- 1 -->
+    <script>
+      // window.onload = () =>{
+      //   let linkElzero = document.querySelectorAll("a");
+      //   for(i = 0;i < linkElzero.length;i++){
+      //      if (linkElzero[i].textContent == "Elzero" && linkElzero[i].classList.contains("open")){
+      //         linkElzero[i].click();
+      //       }
+      //     }
+      // }
+    </script>
+    <!-- HW1-9 -->
+    <script>
+      // Code One : Is Don't Work ; Because The Script Before The Element
+      // document.getElementById("el").style.color = "red";
+    </script>
+    <script>
+      // Code Two : Is Work : Because We Add onload Function
+      window.onload = function () {
+        document.getElementById("el").style.color = "red";
+      };
+    </script>
+  </head>
+  <body>
+    <h1 id="el">Page Title</h1>
+    <script>
+      // Code Three : Is Work ; Because The Script After The Element
+      document.getElementById("el").style.color = "red";
+    </script>
+
+    <!-- HW10-17 -->
+    <div id="elzero">object</div>
+
+    <!-- HW86-93 -->
+    <!-- 1 -->
+    <div id="elzeroDOM" class="element" name="js">JavaScript</div>
+
+    <!-- 2 -->
+    <div>
+      <img src="#" alt="" />
+    </div>
+    <div>
+      <img src="#" alt="" />
+    </div>
+    <div>
+      <img src="#" alt="" />
+    </div>
+    <div>
+      <img src="#" alt="" />
+    </div>
+    <div>
+      <img src="#" alt="" />
+    </div>
+    <div>
+      <img src="#" alt="" />
+    </div>
+    <div>
+      <img src="#" alt="" />
+    </div>
+    <div>
+      <img src="#" alt="" />
+    </div>
+    <div>
+      <img src="#" alt="" />
+    </div>
+    <div>
+      <img src="#" alt="" />
+    </div>
+
+    <!-- 3 -->
+    <form action="">
+      <input type="number" name="dollar" placeholder="USD Dollar" />
+      <div class="result"></div>
+    </form>
+
+    <!-- 4 -->
+    <div class="one" title="two">Two</div>
+    <div class="two" title="one">One</div>
+
+    <!-- 5 -->
+    <img src="#" alt="One" />
+    <img src="#" />
+    <img src="#" alt="Three" />
+    <img src="#" />
+    <img src="#" />
+
+    <!-- HW94-101 -->
+    <!-- 1 -->
+    <a class="open" href="https://google.com">Google</a>
+    <a class="open" href="https://elzero.org">Elzero</a>
+    <a class="not" href="https://facebook.com">Facebook</a>
+    <a class="linked" href="https://linkedin.com">Elzero</a>
+
+    <!-- 3 -->
+    <div class="our-element">Our Element</div>
+    <p>Paragraph</p>
+
+    <!-- 4 -->
+    <div>
+      <span>Hello</span>
+      <!-- We Need The Next Text Without Spaces -->
+      Elzero
+    </div>
+    <!-- 5 -->
+    <div>Element</div>
+    <span>Element</span>
+    <p>Element</p>
+    <article>Element</article>
+    <section>Element</section>
+    
+  </body>
+  <script src="MainHW.Js"></script>
+  <script src="module.Js" type="module"></script>
+  <script src="mod-one.js" type="module"></script>
+  <script src="mod-two.js" type="module"></script>
+
+</html>

@@ -1,0 +1,17 @@
+[
+    {
+      "id": 1,
+      "title": "Javascript",
+      "article": "1-Lorem",
+      "section": "Technology",
+      "writer": "Abdullah"
+    },
+    {
+      "id": 2,
+      "title": "Pathology",
+      "article": "2-Lorem",
+      "section": "Medicine",
+      "writer": "Saad"
+
+    }
+]
